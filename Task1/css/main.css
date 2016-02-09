@@ -1,0 +1,41 @@
+body {
+	margin:0;
+}
+
+.main {
+	background-color:#eeeeee;
+	height: 800px;
+	padding-top: 3px;
+}
+
+.content {
+	margin: 0 auto;
+    width: 33%;
+    height: 93%;
+    background-color: white;
+	border: 1px solid #cecece;
+	font-size: 16.4px;
+	line-height: 26px;
+}
+
+.information {
+   	padding: 20px 50px 38px 50px;
+}
+
+.name {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 23px;
+	text-align: center;
+}
+
+.foto {
+	margin: 0;
+	text-align: center;
+}
+
+.student {
+	margin-top: 2px;
+}
+
+
