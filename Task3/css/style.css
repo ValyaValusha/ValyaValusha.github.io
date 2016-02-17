@@ -1,0 +1,199 @@
+body {
+	background: url(../img/background.jpg);
+	background-repeat: repeat-x;
+}
+
+img {
+	display: block;
+}
+
+ul{
+	list-style: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 79.5%;
+	height: 96%;
+	background-color: #ffffff;
+	font-family: "Tahoma";
+	color: #128aa7;
+	position: relative;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
+	overflow: hidden;
+}
+
+.logo {
+	position: relative;
+}
+
+.logo a{
+	display: block;
+}
+
+.logo img {
+	height: 35%;
+	width: 35%;
+}
+.logo p {
+	position: absolute;
+	top: 57%;
+	right: 78%;
+	font-size: 12px;
+}
+
+header {
+	position: relative;
+}
+
+.contacts {
+	position: absolute;
+	right: 2%;
+	top: 2%;
+}
+
+.navigate-by-country {
+	position: absolute;
+	bottom: 65%;
+	right: 1.5%;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 710px) {
+	.contacts {
+		line-height: 10px;
+		font-size: 10px;
+	}
+} 
+
+@media only screen and (min-width : 710px) and (max-width : 857px) {
+	.contacts {
+		line-height: 10px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width : 857px) and (max-width : 970px) {
+	.contacts {
+		line-height: 15px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width : 970px) {
+	.contacts {
+		line-height: 20px;
+		font-size: 12px;
+	}
+}
+
+.navigate-by-country ul {
+	list-style: none;
+}
+
+.navigate-by-country li {
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+}
+
+.navigate-by-country img {
+	margin: 0 auto;
+	height: 80%;
+	width: 80%;
+}
+
+.banner img { 
+	border-top: 1.5px solid #128aa7;
+	border-bottom: 1.5px solid #138aa7;
+	width: 100%;
+
+}
+.menu {
+	background-color: #343434;
+	border-top: 1.5px solid #cacbcb;
+	border-bottom: 1.5px solid black;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 1% 3.5% 1% 3.5%;
+	position: relative;
+}
+
+.menu li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+
+.triangels {
+	position: absolute;
+	top: 35%;
+	left: 80%;
+}
+.submenu {
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 102%;
+	left: 16%;
+	background-color: #343434;
+	z-index: 1;
+}
+
+.submenu li{
+	padding: 5% 9% 5% 9%;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+
+.content {
+	text-align: center;
+	color: #424c43;
+	overflow: hidden;
+}
+
+.information {
+	width: 21%;
+	float: left;
+	background-color: #edeef0; 
+	padding-bottom: 20000px;
+	margin-bottom: -2000px;
+	border-right: 1px solid #c7cacf;
+}
+
+.middle-content {
+	width: 57.8%;
+	float: left;
+	padding-bottom: 20000px;
+	margin-bottom: -2000px;
+}
+
+.news {
+	width: 20%;
+	float: right;
+	background-color: #edeef0; 
+	padding-bottom: 20000px;
+	margin-bottom: 20000px;
+	border-left: 1px solid #c7cacf;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.content p {
+	padding: 2.25% 0 2% 0;
+}
+
+footer {
+	padding: 1.3% 0 2% 0;
+	clear: both;
+	background: url(../img/footer.jpg);
+	text-align: center;
+	font-size: 12px;
+	color: #b7cddb;
+}
