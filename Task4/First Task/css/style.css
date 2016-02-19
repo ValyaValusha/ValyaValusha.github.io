@@ -1,0 +1,308 @@
+* {
+	font-family: 'helvetica_neueregular', Tahoma, Arial;
+}
+
+ul {
+	list-style: none;
+	float: right;
+}
+
+header {
+	background-color: #085494;
+}
+
+header:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;  
+} 
+
+li {
+	display: inline-block;
+	padding: 1.5%;
+	color: #fefefe;
+}
+
+li:hover {
+	background-color: #4eabda;
+}
+
+li:hover a {
+	color: #edf5fa;
+}
+
+a {
+	text-decoration: none;
+	color: #60b5ed;
+}
+
+.ola span{
+	text-decoration: underline;
+}
+
+.ola {
+	background-color: #4eabda;
+}
+
+.flag {
+	height: 60%;
+	border-left: 1px solid #56a2dc;
+}
+
+.flag span {
+	font-size: 16px;
+}
+
+.container {
+	height: 100%;
+	background-image: url(../img/background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.form {
+    position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 45%;
+	background-color: rgba(15,15,15,0.7);
+	text-align: center;
+}
+
+.top {
+	margin-bottom: 5%;
+	color: #fff;
+	font-size: 24px;
+	line-height: 60px;
+	border-bottom: 1px solid #b3bda4;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	margin-bottom: 4%;
+	width: 47%;
+	padding: 2.4% 0 2.4% 4% ;
+	color: white;
+	background-color: rgba(15,14,14,0.9);
+	border: none;
+	
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+	color: #fffcfc;
+	outline: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+	background-color: rgb(27,82,136);
+	box-shadow: 0 0 5px 3px rgb(71,131,171);
+}
+
+input::-webkit-input-placeholder { 
+	color: rgba(255,255,255,0.8);
+}
+
+input:-moz-placeholder { 
+ 	color: rgba(255,255,255,0.8); 
+}
+
+.check {
+	padding-right: 8%;
+	margin-bottom: 4%;
+}
+
+label,
+p {
+	color: #cccccc;
+}
+
+input[type="submit"] {
+	padding: 2%;
+	margin-bottom: 4%;
+	color: white;
+	font-size: 17px;
+	background-color: #398bcc;
+	border: none;
+	box-shadow: 0 -1px 0 1px #67c6e6;
+	border-radius: 2px;
+}
+
+.LogIn {
+	margin: 0 auto;
+	background-color: #385191;
+	color: white;
+	font-weight: bolder;
+	border-radius: 3px;
+}
+
+.LogIn a {
+	color: white;
+	display: inline-block;
+	line-height: 33px;
+}
+
+.facebook_click {
+	float: left;
+	width: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 0.5%;
+	text-align: center;
+	font-size: 24px;
+	border-right: 1px solid #1f3c76;
+	border-top: 1px solid #7889b7;
+}
+
+.arrow {
+	padding: 0.5% 0 0.5% 11%;
+	font-size: 18px;
+}
+
+.facebook-login span {
+	padding-top: 0.5%;
+	font-weight: normal;
+}
+
+.facebook-login {
+	width: 86%;
+	border-left: 1px solid #7889b7;
+	border-top: 1px solid #7889b7;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 300px) {
+	.LogIn {
+		width: 100%;
+	}
+	.form {
+		width: 95%;
+		left: 2.5%;
+	}
+}
+
+@media only screen and (min-width : 300px) and (max-width : 436px) {
+	.LogIn {
+		width: 90%;
+	}
+	.form {
+		width: 80%;
+		left: 10%;
+	}
+} 
+
+@media only screen and (min-width : 436px) and (max-width : 572px) {
+	.LogIn {
+		width: 80%;
+	}
+
+	.form {
+		width: 60%;
+		left: 20%;
+		top: 23%;
+	}
+} 
+
+@media only screen and (min-width : 572px) and (max-width : 700px) {
+	.LogIn {
+		width: 80%;
+	}
+
+	.form {
+		top: 25%;
+	}
+} 
+
+@media only screen and (min-width : 700px) and (max-width : 784px) {
+	.LogIn {
+		width: 65% ;
+	}
+}
+
+@media only screen and (min-width : 784px) and (max-width : 972px) {
+	.LogIn {
+		width: 58%;
+	}
+}
+
+@media only screen and (min-width : 972px) and (max-width: 1100px) {
+	.LogIn {
+		width: 52%;
+	}
+
+	.form {
+		top: 16%;
+	}
+}
+
+@media only screen and (min-width : 1100px) and (max-width: 1200px) {
+	.form {
+		top: 13%;
+	}
+	.LogIn {
+		width: 52%;
+	}
+}
+
+@media only screen and (min-width : 1200px) and (max-width: 1400px) {
+	.form {
+		top: 10%;
+	}
+	.LogIn {
+		width: 52%;
+	}
+}
+
+@media only screen and (min-width : 1400px) {
+	.form {
+		top: 5%;
+	}
+	.LogIn {
+		width: 52%;
+	}
+}
+
+.ou {
+  clear: both;
+  padding: 4% 28% 4% 28%;
+  width: 44%;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  color: #999999;
+}
+
+.ou:before,
+.ou:after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 50%;
+  height: 1px;
+  vertical-align: middle;
+  background: #666666;
+  box-shadow: 0 1px 0 0.5px black;
+}
+
+.ou:before {
+  left: -10px;
+  margin-left: -50%;
+}
+
+.ou:after {
+  left: 10px;
+  margin-right: -50%;
+}
+
+.terms {
+	margin: 0 auto;
+	margin-bottom: 3%;
+	width: 75%;
+}
