@@ -4,7 +4,9 @@
 
 ul {
 	list-style: none;
+	width: 60%;
 	float: right;
+	line-height: 40px;
 }
 
 header {
@@ -21,7 +23,7 @@ header:after {
 
 li {
 	display: inline-block;
-	padding: 1.5%;
+	padding: 0 2% 0 2%;
 	color: #fefefe;
 }
 
@@ -33,17 +35,20 @@ li:hover a {
 	color: #edf5fa;
 }
 
-a {
+a {  
+	display: block;
 	text-decoration: none;
 	color: #60b5ed;
 }
 
-.ola span{
+.underlined {
 	text-decoration: underline;
+	color: white;
 }
 
-.ola {
+.ola a {
 	background-color: #4eabda;
+	color: white;
 }
 
 .flag {
@@ -56,17 +61,25 @@ a {
 }
 
 .container {
-	height: 100%;
+	min-height: 120%;
 	background-image: url(../img/background.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 }
 
+.content {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto; 
+}
+
 .form {
-    position: absolute;
-	top: 20%;
-	left: 30%;
-	width: 45%;
 	background-color: rgba(15,15,15,0.7);
 	text-align: center;
 }
@@ -179,19 +192,11 @@ input[type="submit"] {
 	.LogIn {
 		width: 100%;
 	}
-	.form {
-		width: 95%;
-		left: 2.5%;
-	}
 }
 
 @media only screen and (min-width : 300px) and (max-width : 436px) {
 	.LogIn {
 		width: 90%;
-	}
-	.form {
-		width: 80%;
-		left: 10%;
 	}
 } 
 
@@ -199,21 +204,11 @@ input[type="submit"] {
 	.LogIn {
 		width: 80%;
 	}
-
-	.form {
-		width: 60%;
-		left: 20%;
-		top: 23%;
-	}
 } 
 
 @media only screen and (min-width : 572px) and (max-width : 700px) {
 	.LogIn {
 		width: 80%;
-	}
-
-	.form {
-		top: 25%;
 	}
 } 
 
@@ -233,34 +228,21 @@ input[type="submit"] {
 	.LogIn {
 		width: 52%;
 	}
-
-	.form {
-		top: 16%;
-	}
 }
 
 @media only screen and (min-width : 1100px) and (max-width: 1200px) {
-	.form {
-		top: 13%;
-	}
 	.LogIn {
 		width: 52%;
 	}
 }
 
 @media only screen and (min-width : 1200px) and (max-width: 1400px) {
-	.form {
-		top: 10%;
-	}
 	.LogIn {
 		width: 52%;
 	}
 }
 
 @media only screen and (min-width : 1400px) {
-	.form {
-		top: 5%;
-	}
 	.LogIn {
 		width: 52%;
 	}
