@@ -72,6 +72,7 @@ a {
 }
 
 .content {
+<<<<<<< HEAD
 	width: 1215px;
     height: 1024px;
     position: relative;
@@ -86,6 +87,25 @@ a {
     margin: -310px 0 0 -250px;
 	background-color: rgba(15,15,15,0.7);
 	text-align: center;
+=======
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 105px;
+    left: 0;
+    overflow: auto;
+}
+
+.form {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+    background-color: rgba(15,15,15,0.7);
+    text-align: center;
+>>>>>>> 88680ecf3a7f96fda53671bf8dbd495aad1f01fe
 }
 
 .top {
